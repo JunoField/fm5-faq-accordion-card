@@ -1,14 +1,23 @@
 body {
-  background-color: #00f;
+  background: linear-gradient(90deg, #af67e9, #6565e7);
 }
 
 #centre-card {
   width: 327px;
+  height: 537px;
+  text-align: center;
   background-color: #fff;
+  border-radius: 20px;
   position: absolute;
-  top: 50%;
+  bottom: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
+}
+
+#centre-card img {
+  width: 237px;
+  margin: -107px auto auto;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */

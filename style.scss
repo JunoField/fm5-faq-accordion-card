@@ -10,16 +10,32 @@ $darkGrayishBlue: hsl(240, 6%, 50%); //text neutral
 
 $lightGrayishBlue: hsl(240, 5%, 91%); //dividers
 
+$white: hsl(0, 100%, 100%); //card
+
 
 body{
-    background-color: blue;
+    background: linear-gradient(90deg, $softViolet, $softBlue);
 }
 
 #centre-card{
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 50%;
+    transform: translate(-50%, 50%);
     width: 327px;
-    background-color: white;
+    height: 537px;
+    background-color: $white;
+    border-radius: 20px;
+    text-align: center;
+    
+
+    img{
+        width: 237px;
+        margin: -107px auto auto auto;
+        display: flex;
+
+    }
+
+
 }
+
