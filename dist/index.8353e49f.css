@@ -1,0 +1,14 @@
+body {
+  background-color: #00f;
+}
+
+#centre-card {
+  width: 327px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=index.8353e49f.css.map */

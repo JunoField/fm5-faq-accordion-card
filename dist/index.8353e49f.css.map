@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA","sources":["style.scss"],"sourcesContent":["body{\n    background-color: blue;\n}\n\n#centre-card{\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    transform: translate(-50%, -50%);\n    width: 327px;\n    background-color: white;\n}"],"names":[],"version":3,"file":"index.8353e49f.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,0 +1,25 @@
+$veryDarkDesaturatedBlue: hsl(238, 29%, 16%); //text primary
+$softRed: hsl(14, 88%, 65%); //text primary
+
+
+$softViolet: hsl(273, 75%, 66%); //bg gradient
+$softBlue: hsl(240, 73%, 65%); //bg gradient
+
+$veryDarkGrayishBlue: hsl(237, 12%, 33%); //text neutral
+$darkGrayishBlue: hsl(240, 6%, 50%); //text neutral
+
+$lightGrayishBlue: hsl(240, 5%, 91%); //dividers
+
+
+body{
+    background-color: blue;
+}
+
+#centre-card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 327px;
+    background-color: white;
+}
