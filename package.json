@@ -1,0 +1,26 @@
+{
+  "name": "fm5-faq-accordion-card",
+  "version": "1.0.0",
+  "description": "![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "shx rm -rf dist/*",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url https://junofield.github.io/fm5-faq-accordion-card"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunoField/fm5-faq-accordion-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JunoField/fm5-faq-accordion-card/issues"
+  },
+  "homepage": "https://github.com/JunoField/fm5-faq-accordion-card#readme",
+  "dependencies": {
+    "parcel": "^2.5.0",
+    "shx": "^0.3.4"
+  }
+}
