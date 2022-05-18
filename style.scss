@@ -66,11 +66,11 @@ body{
 
     background: $white url(images/icon-arrow-down.svg);
     background-position: 270px 25px;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 
-   
-   
-
+    &:hover{
+        color: $softRed;
+    }
 }
 
 
@@ -81,4 +81,15 @@ body{
         display: none;
         font-size: 9pt;
     }
+}
+
+
+
+
+.attribution{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 8pt;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }
