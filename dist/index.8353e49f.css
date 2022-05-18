@@ -8,16 +8,53 @@ body {
   text-align: center;
   background-color: #fff;
   border-radius: 20px;
+  font-family: Kumbh Sans, sans-serif;
   position: absolute;
-  bottom: 50%;
+  top: calc(50% + 32px);
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
 }
 
 #centre-card img {
   width: 237px;
   margin: -107px auto auto;
   display: flex;
+}
+
+#centre-card h1 {
+  color: #1d1e35;
+  margin-top: 58px;
+  font-weight: 700;
+}
+
+#question-area {
+  margin: auto 20px;
+}
+
+.question {
+  cursor: pointer;
+  text-align: left;
+  width: 280px;
+  color: #787887;
+  background-color: #000;
+  border: none;
+  border-bottom: 1px solid #e7e7e9;
+  outline: none;
+  margin: auto;
+  padding: 10px 0 20px 1px;
+  font-size: 9.7pt;
+  transition: all .2s;
+}
+
+.question img {
+  max-width: 10px;
+  float: right;
+}
+
+.answer p {
+  color: #4a4b5e;
+  font-size: 9pt;
+  display: none;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */
