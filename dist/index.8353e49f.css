@@ -39,7 +39,6 @@ body {
   background: #fff url("icon-arrow-down.deff4496.svg") 270px 25px no-repeat;
   border: none;
   border-bottom: 1px solid #e7e7e9;
-  outline: none;
   margin: auto;
   padding: 17px 0 16px 1px;
   font-size: 9.7pt;
@@ -53,7 +52,7 @@ body {
 }
 
 .answer p {
-  color: #4a4b5e;
+  color: #787887;
   font-size: 9pt;
   display: none;
 }
