@@ -23,32 +23,29 @@ body {
 
 #centre-card h1 {
   color: #1d1e35;
-  margin-top: 58px;
+  margin-top: 57px;
   font-weight: 700;
 }
 
 #question-area {
-  margin: auto 20px;
+  margin: -7px 20px auto;
 }
 
 .question {
   cursor: pointer;
   text-align: left;
   width: 280px;
-  color: #787887;
-  background-color: #000;
+  color: #4a4b5e;
+  background: #fff url("icon-arrow-down.deff4496.svg") 270px 25px no-repeat;
   border: none;
   border-bottom: 1px solid #e7e7e9;
   outline: none;
   margin: auto;
-  padding: 10px 0 20px 1px;
+  padding: 17px 0 16px 1px;
   font-size: 9.7pt;
   transition: all .2s;
-}
-
-.question img {
-  max-width: 10px;
-  float: right;
+  display: block;
+  position: relative;
 }
 
 .answer p {
