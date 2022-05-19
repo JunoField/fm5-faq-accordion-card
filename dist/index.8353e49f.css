@@ -75,6 +75,21 @@ body {
   display: block;
 }
 
+@media only screen and (min-width: 1020px) {
+  #centre-card {
+    width: 922px;
+    height: 510px;
+    text-align: unset;
+  }
+
+  #centre-card img {
+    margin: auto auto auto 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
 .attribution {
   font-family: Kumbh Sans, sans-serif;
   font-size: 8pt;

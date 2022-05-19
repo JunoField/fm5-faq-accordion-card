@@ -96,6 +96,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 https://www.w3schools.com/howto/howto_js_accordion.asp
+https://stackoverflow.com/questions/5087420/how-to-rotate-the-background-image-in-the-container
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
