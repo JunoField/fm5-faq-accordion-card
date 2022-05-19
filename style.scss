@@ -30,17 +30,24 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     
 
-    img{
-        width: 237px;
-        margin: -107px auto auto auto;
-        display: flex;
-    }
+    
 
     h1{
         font-weight: 700;
         color: $veryDarkDesaturatedBlue;
-        margin-top: 57px;
+        margin-top: 24px;
     }
+}
+
+#illustration{
+    width: 237px;
+    margin: -107px auto auto auto;
+    display: flex;
+}
+
+#bgpattern{
+    margin: -73px auto auto auto;
+    
 }
 
 #question-area{

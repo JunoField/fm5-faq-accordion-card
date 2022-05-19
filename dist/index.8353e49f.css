@@ -15,16 +15,20 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#centre-card img {
+#centre-card h1 {
+  color: #1d1e35;
+  margin-top: 24px;
+  font-weight: 700;
+}
+
+#illustration {
   width: 237px;
   margin: -107px auto auto;
   display: flex;
 }
 
-#centre-card h1 {
-  color: #1d1e35;
-  margin-top: 57px;
-  font-weight: 700;
+#bgpattern {
+  margin: -73px auto auto;
 }
 
 #question-area {
