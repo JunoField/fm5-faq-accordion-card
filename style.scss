@@ -74,12 +74,26 @@ body{
 
 
 .answer{
+    display: none;
     p{
         color: $darkGrayishBlue;
-        display: none;
+        text-align: left;
         font-size: 9pt;
-
+        margin: 8px 20px 19px 5px;
+        line-height: 18px;
     }
+    border-bottom: 1px solid $lightGrayishBlue;
+}
+
+.question-open{
+    font-weight: 700;
+    color: $veryDarkDesaturatedBlue;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.answer-open{
+    display: block;
 }
 
 

@@ -51,10 +51,28 @@ body {
   color: #f47c57;
 }
 
+.answer {
+  border-bottom: 1px solid #e7e7e9;
+  display: none;
+}
+
 .answer p {
   color: #787887;
+  text-align: left;
+  margin: 8px 20px 19px 5px;
   font-size: 9pt;
-  display: none;
+  line-height: 18px;
+}
+
+.question-open {
+  color: #1d1e35;
+  border-bottom: none;
+  padding-bottom: 0;
+  font-weight: 700;
+}
+
+.answer-open {
+  display: block;
 }
 
 .attribution {
