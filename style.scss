@@ -39,20 +39,33 @@ body{
     }
 }
 
-#illustration{
+
+
+#illustration-mob{
     width: 237px;
     margin: -107px auto auto auto;
     display: flex;
 }
 
-#bgpattern{
+#bgpattern-mob{
+    display: block;
     margin: -73px auto auto auto;
-    
 }
 
-#question-area{
-    margin: -7px 20px auto 20px;
+#illustration-dt{
+    display: none;
 }
+
+#illustration-box-dt{
+    display: none;
+}
+
+#bgpattern-dt{
+    display: none;
+}
+
+
+
 
 
 
@@ -109,17 +122,34 @@ body{
         width: 922px;
         height: 510px;
         text-align: unset;
+        overflow: hidden;
+    }
+
+    #illustration-mob{
+        display: none;
+    }
+    #bgpattern-mob{
+        display: none;
+    }
+
+    #illustration-dt{
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: auto auto auto -84px;
+        
+    }
 
 
+    #illustration-box-dt{
+        display: block;
+        position: fixed;
+        transform: translate(-93px, 0px)
+    }
 
-        img{
-            
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            margin: auto auto auto 0px;
-        }
-
+    #question-area{
+        margin-right: -500px;
     }
 
 }

@@ -21,18 +21,19 @@ body {
   font-weight: 700;
 }
 
-#illustration {
+#illustration-mob {
   width: 237px;
   margin: -107px auto auto;
   display: flex;
 }
 
-#bgpattern {
+#bgpattern-mob {
   margin: -73px auto auto;
+  display: block;
 }
 
-#question-area {
-  margin: -7px 20px auto;
+#illustration-dt, #illustration-box-dt, #bgpattern-dt {
+  display: none;
 }
 
 .question {
@@ -84,13 +85,29 @@ body {
     width: 922px;
     height: 510px;
     text-align: unset;
+    overflow: hidden;
   }
 
-  #centre-card img {
-    margin: auto auto auto 0;
+  #illustration-mob, #bgpattern-mob {
+    display: none;
+  }
+
+  #illustration-dt {
+    margin: auto auto auto -84px;
+    display: block;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  #illustration-box-dt {
+    display: block;
+    position: fixed;
+    transform: translate(-93px);
+  }
+
+  #question-area {
+    margin-right: -500px;
   }
 }
 
