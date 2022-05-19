@@ -1,12 +1,12 @@
 
 
-function processClick(){
-    if (document.getElementById("question-2").classList.contains("question-open")){
-        document.getElementById("question-2").classList.remove("question-open");
-        document.getElementById("answer-2").classList.remove("answer-open");
+function processClick(qaNo){
+    if (document.getElementById("question-" + qaNo).classList.contains("question-open")){
+        document.getElementById("question-" + qaNo).classList.remove("question-open");
+        document.getElementById("answer-" + qaNo).classList.remove("answer-open");
     } else{
-        document.getElementById("question-2").classList.add("question-open");
-        document.getElementById("answer-2").classList.add("answer-open");
+        document.getElementById("question-" + qaNo).classList.add("question-open");
+        document.getElementById("answer-" + qaNo).classList.add("answer-open");
     }
     
 }
