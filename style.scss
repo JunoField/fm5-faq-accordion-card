@@ -28,9 +28,6 @@ body{
     border-radius: 20px;
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
-    
-
-    
 
     h1{
         font-weight: 700;
@@ -95,6 +92,7 @@ body{
 
 .answer{
     display: none;
+    border-bottom: 1px solid $lightGrayishBlue;
     p{
         color: $darkGrayishBlue;
         text-align: left;
@@ -102,7 +100,6 @@ body{
         margin: 8px 20px 19px 5px;
         line-height: 18px;
     }
-    border-bottom: 1px solid $lightGrayishBlue;
 }
 
 .question-open{
@@ -141,7 +138,6 @@ body{
         
     }
 
-
     #illustration-box-dt{
         display: block;
         position: fixed;
@@ -151,7 +147,6 @@ body{
     #question-area{
         margin-right: -500px;
     }
-
 }
 
 

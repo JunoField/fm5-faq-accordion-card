@@ -1,6 +1,5 @@
 const noOfAnswers = 5;
 
-
 //input 0 for close *all*
 function closeAllOthers(desiredPair, noOfAnswers){
     for (let i = 1; i <= noOfAnswers; i++){
