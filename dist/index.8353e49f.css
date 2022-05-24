@@ -90,6 +90,10 @@ body {
     overflow: hidden;
   }
 
+  #centre-card h1 {
+    margin: 64px 379px 20px auto;
+  }
+
   #illustration-mob {
     display: none;
   }
@@ -109,7 +113,12 @@ body {
   }
 
   #question-area {
-    margin-right: -500px;
+    margin-right: -373px;
+  }
+
+  .question {
+    width: 356px;
+    font-size: 10.5pt;
   }
 }
 

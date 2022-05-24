@@ -123,6 +123,11 @@ body{
         background: $white url(images/bg-pattern-desktop.svg);
         background-position: -577px -294px;
         background-repeat: no-repeat;
+
+        h1{
+            margin: 64px 379px 20px auto;
+        }
+
     }
 
     #illustration-mob{
@@ -146,8 +151,18 @@ body{
     }
 
     #question-area{
-        margin-right: -500px;
+        margin-right: -373px;
     }
+
+    .question{
+        width: 356px;
+        font-size: 10.5pt;
+        
+    }
+
+    
+
+
 }
 
 
