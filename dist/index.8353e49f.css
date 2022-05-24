@@ -31,6 +31,10 @@ body {
   display: none;
 }
 
+#question-area {
+  margin-top: -7px;
+}
+
 .question {
   cursor: pointer;
   text-align: left;
@@ -41,6 +45,7 @@ body {
   border-bottom: 1px solid #e7e7e9;
   margin: auto;
   padding: 17px 0 16px 1px;
+  font-family: Kumbh Sans, sans-serif;
   font-size: 9.7pt;
   transition: all .2s;
   display: block;
@@ -53,13 +58,14 @@ body {
 
 .answer {
   border-bottom: 1px solid #e7e7e9;
+  margin: 11px 24px 0 25px;
   display: none;
 }
 
 .answer p {
   color: #787887;
   text-align: left;
-  margin: 8px 20px 19px 5px;
+  margin: auto auto 18px;
   font-size: 9pt;
   line-height: 18px;
 }
