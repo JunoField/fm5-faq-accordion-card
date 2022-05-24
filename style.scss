@@ -114,12 +114,16 @@ body{
 }
 
 
+//DESKTOP DISPLAY
 @media only screen and (min-width: 1020px){
     #centre-card{
         width: 922px;
         height: 510px;
-        text-align: unset;
+        text-align: right;
         overflow: hidden;
+        background: $white url(images/bg-pattern-desktop.svg);
+        background-position: -577px -294px;
+        background-repeat: no-repeat;
     }
 
     #illustration-mob{
@@ -134,14 +138,15 @@ body{
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        margin: auto auto auto -84px;
+        margin: -7px auto auto -84px;
         
     }
+
 
     #illustration-box-dt{
         display: block;
         position: fixed;
-        transform: translate(-93px, 0px)
+        transform: translate(-93px, 205px)
     }
 
     #question-area{
