@@ -125,7 +125,7 @@ body{
         background-repeat: no-repeat;
 
         h1{
-            margin: 64px 379px 20px auto;
+            margin: 64px 376px 26px auto;
         }
 
     }
@@ -151,13 +151,26 @@ body{
     }
 
     #question-area{
-        margin-right: -373px;
+        margin-right: -377px;
     }
 
     .question{
-        width: 356px;
-        font-size: 10.5pt;
-        
+        width: 352px;
+        font-size: 10.6pt;
+        padding-left: 5px;
+        background-position-x: 328px;
+    }
+
+    .question-open{
+        padding-top: 15px;
+    }
+
+    .answer{
+        margin-left: 475px;
+        width: 352px;
+        p{
+            margin-left: 2px;
+        }
     }
 
     

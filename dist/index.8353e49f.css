@@ -91,7 +91,7 @@ body {
   }
 
   #centre-card h1 {
-    margin: 64px 379px 20px auto;
+    margin: 64px 376px 26px auto;
   }
 
   #illustration-mob {
@@ -113,12 +113,27 @@ body {
   }
 
   #question-area {
-    margin-right: -373px;
+    margin-right: -377px;
   }
 
   .question {
-    width: 356px;
-    font-size: 10.5pt;
+    width: 352px;
+    background-position-x: 328px;
+    padding-left: 5px;
+    font-size: 10.6pt;
+  }
+
+  .question-open {
+    padding-top: 15px;
+  }
+
+  .answer {
+    width: 352px;
+    margin-left: 475px;
+  }
+
+  .answer p {
+    margin-left: 2px;
   }
 }
 
