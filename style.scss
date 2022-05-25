@@ -77,10 +77,8 @@ body{
     color: $veryDarkGrayishBlue;
     position: relative;
     display: block;
-
-    background: $white url(images/icon-arrow-down.svg);
-    background-position: 270px 25px;
-    background-repeat: no-repeat;
+    
+    background-color: $white;
 
     &:hover{
         color: $softRed;
@@ -106,11 +104,30 @@ body{
     color: $veryDarkDesaturatedBlue;
     border-bottom: none;
     padding-bottom: 0px; 
+    padding-top: 18px;
 }
 
 .answer-open{
     display: block;
 }
+
+.question::after{
+    display: block;
+    content: url(images/icon-arrow-down.svg);
+    background-color: $white;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 10px;
+    top: 16px;
+    /*z-index: 10;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;*/
+}
+
 
 
 //DESKTOP DISPLAY
@@ -174,6 +191,7 @@ body{
         }
     }
 }
+
 
 
 
