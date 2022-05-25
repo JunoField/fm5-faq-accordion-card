@@ -196,20 +196,11 @@ body{
         }
     }
 
-    /*
+    
     .question-open::after{
-    display: block;
-    content: url(images/icon-arrow-down.svg);
-    background-color: $white;
-    position: absolute;
-    width: 0;
-    height: 0;
-    right: 0px;
     margin-right: -10px;
-    top: 34px;
-    transform: rotate(180deg);
-}
-    */
+    }
+    
 }
 
 
