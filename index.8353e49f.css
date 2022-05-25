@@ -135,6 +135,10 @@ body {
     font-size: 10.6pt;
   }
 
+  .question:after {
+    right: 24px;
+  }
+
   .question-open {
     padding-top: 15px;
   }
