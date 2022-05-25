@@ -98,6 +98,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 https://www.w3schools.com/howto/howto_js_accordion.asp
 https://stackoverflow.com/questions/5087420/how-to-rotate-the-background-image-in-the-container
 
+https://www.foolishdeveloper.com/2021/01/accordion-menu.html - arrows
+
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author

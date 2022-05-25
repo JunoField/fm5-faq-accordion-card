@@ -111,6 +111,7 @@ body{
     display: block;
 }
 
+//accordion arrows
 .question::after{
     display: block;
     content: url(images/icon-arrow-down.svg);
@@ -120,12 +121,7 @@ body{
     height: 0;
     right: 10px;
     top: 16px;
-    /*z-index: 10;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition:all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;*/
+
 }
 
 
@@ -178,6 +174,9 @@ body{
         background-position-x: 328px;
     }
 
+    .question::after{
+        right: 24px;
+    }
 
     .question-open{
         padding-top: 15px;
