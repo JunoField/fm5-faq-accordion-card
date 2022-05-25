@@ -93,6 +93,12 @@ body {
   right: 10px;
 }
 
+.question-open:after {
+  top: 34px;
+  right: 0;
+  transform: rotate(180deg);
+}
+
 @media only screen and (min-width: 1020px) {
   #centre-card {
     width: 922px;

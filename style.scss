@@ -124,6 +124,12 @@ body{
 
 }
 
+.question-open::after{
+    right: 0px;
+    top: 34px;
+    transform: rotate(180deg);
+}
+
 
 
 //DESKTOP DISPLAY
@@ -189,6 +195,21 @@ body{
             margin-left: 2px;
         }
     }
+
+    /*
+    .question-open::after{
+    display: block;
+    content: url(images/icon-arrow-down.svg);
+    background-color: $white;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0px;
+    margin-right: -10px;
+    top: 34px;
+    transform: rotate(180deg);
+}
+    */
 }
 
 
